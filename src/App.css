@@ -1,38 +1,213 @@
-.App {
-  text-align: center;
+body{
+    /* position: absolute;
+    top:0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;  */  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.891);
+    padding: 5%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*  Ecrite */
+#ecrit{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    border: solid 10px white;
+    align-items: center;
+    padding: 40px;
+    border-radius: 30px;
+    font-size: 1.2em;
+    background-color: rgb(185, 185, 185);
+    width: 500px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#ecrit #infoExo{
+    display: flex;   
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.chrono, .nbActuelle{
+    padding: 10px;
+    margin: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(214, 214, 214, 0.598);
+    border-radius: 20px;
+    font-size: 1.2em;
 }
 
-.App-link {
-  color: #61dafb;
+.chrono p, .nbActuelle p{
+    margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+#ecrit button{
+    margin-top: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.3em;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
 }
+
+#ecrit .audioBoutton button{
+    border-radius: 20px;
+}
+
+.textATraduire, .textSaisie{
+    border: solid;
+    display: flex;
+    border-radius: 40px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    background-color: white;
+    font-size: 2em;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.textSaisie{
+    text-decoration: underline;
+}
+
+.textATraduire{
+    color: blue;
+}
+
+.consigne{
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 0px;
+    background-color: rgba(214, 214, 214, 0.598);
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+/* Aceille */
+
+#Menu{
+    margin-top: 28%;
+    border: solid 10px white;
+    border-radius: 40px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(185, 185, 185);
+}
+
+#Menu h1{
+    font-size: 4em;
+    margin-top: 0px;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+#Menu button{
+    margin-top: 20px;
+    font-size: 1.5em;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
+#Menu select{
+    font-size: 1.5em;
+    padding: 10px;
+    border: solid;
+    font-weight: bold;
+}
+
+/* Correction */
+
+#Correction{
+    border: solid 10px white;
+    border-radius: 40px;
+    padding: 30px;
+    background-color: rgb(185, 185, 185);
+}
+
+#Correction h1{
+    margin: auto;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+
+
+
+.infoCorrection{
+    display: flex;
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.infoCorrection p{
+    margin: auto;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+#Correction{
+    text-align: center;
+}
+
+#Correction li button{
+    font-size: 1.1em;
+}
+
+#Correction li p{
+    margin: 0px;
+}
+
+#Correction .boutton button{
+    font-size: 1.2em;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 10px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+table td{
+    background-color: white;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+thead td{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.3em;
+    background-color: rgba(160, 160, 160, 0.802);
+}
+
+table{
+    margin: auto;
+    border: solid;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
